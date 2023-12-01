@@ -1,6 +1,7 @@
 -e .
 
 black
+build
 chardet
 flake8
 isort
