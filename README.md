@@ -1,39 +1,33 @@
-# Cookiecutter Data Science
+Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial
+Politécnico Malvinas Argentinas
+Aprendizaje Automático
 
-_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._
+Autora: Silvia Bolaña
 
-**Cookiecutter Data Science (CCDS)** is a tool for setting up a data science project template that incorporates best practices. To learn more about CCDS's philosophy, visit the [project homepage](https://cookiecutter-data-science.drivendata.org/).
+AUTOMATIZACION DE COMPRA VENTA DE BTC
 
-> ℹ️ Cookiecutter Data Science v2 has changed from v1. It now requires installing the new cookiecutter-data-science Python package, which extends the functionality of the [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html) templating utility. Use the provided `ccds` command-line program instead of `cookiecutter`.
+Entrega 1: Descripción y Formulación del Objetivo:
+*****
+COMPLETAR
 
-## Installation
+Las preguntas de investigación del proyecto son:
+******
+COMPLETAR
 
-Cookiecutter Data Science v2 requires Python 3.8+. Since this is a cross-project utility application, we recommend installing it with [pipx](https://pypa.github.io/pipx/). Installation command options:
 
-```bash
-# With pipx from PyPI (recommended)
-pipx install cookiecutter-data-science
+Las distintas etapas del proyecto son:
 
-# With pip from PyPI
-pip install cookiecutter-data-science
+Obtención de los datos: datos de los análisis de la presencia de toxinas en distintos moluscos, datos meteorológicos y oceanográficos de los mismos periodos.
+Integración y limpieza de los datos provenientes de las distintas fuentes.
+Análisis exploratorio de los datos en busca de comprender mejor los datos y encontrar patrones y preparación de los datos para el modelado.
+Modelar los datos en los distintos algoritmos de clasificación que podemos utilizar y analizar sus resultados, en esta etapa también se optimizan los distintos modelos y culminan con la elección del modelo más eficiente.
+Visualizar y comunicar los resultados del modelo.
+Estas etapas si bien siguen un orden se retroalimentan y pueden retomarse o reiniciarse en base a las salidas de las otras etapas.
 
-# With conda from conda-forge (coming soon)
-# conda install cookiecutter-data-science -c conda-forge
-```
 
-## Starting a new project
+Organización del Repositorio:
 
-To start a new project, run:
 
-```bash
-ccds
-```
-
-### The resulting directory structure
-
-The directory structure of your new project will look something like this (depending on the settings that you choose):
-
-```
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
@@ -79,31 +73,7 @@ The directory structure of your new project will look something like this (depen
     │   ├── predict.py          <- Code to run model inference with trained models          
     │   └── train.py            <- Code to train models
     │
-    └── plots.py                <- Code to create visualizations   
-```
+    └── plots.py                <- Code to create visualizations
 
-## Using v1
 
-If you want to use the old v1 project template, you need to have either the cookiecutter-data-science package or cookiecutter package installed. Then, use either command-line program with the `-c v1` option:
-
-```bash
-ccds https://github.com/drivendataorg/cookiecutter-data-science -c v1
-# or equivalently
-cookiecutter https://github.com/drivendataorg/cookiecutter-data-science -c v1
-```
-
-## Contributing
-
-We welcome contributions! [See the docs for guidelines](https://cookiecutter-data-science.drivendata.org/contributing/).
-
-### Installing development requirements
-
-```bash
-pip install -r dev-requirements.txt
-```
-
-### Running the tests
-
-```bash
-pytest tests
-```
+Proyecto basado en la plantilla de proyecto de ciencia de datos cookiecutter . #cookiecutterdatascience
